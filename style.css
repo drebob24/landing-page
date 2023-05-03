@@ -1,5 +1,5 @@
 html{
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Segoi UI, futura, sans-serif;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 }
 
 .banner {
-    background-color: #1F2937;
+    background-color: #6FB3B8;
     display: flex;
     color:white;
     font-size: 24px;
@@ -49,7 +49,7 @@ img {
 }
 
 .footer {
-    background-color: #1F2937;
+    background-color: #6FB3B8;
     color:white;
     font-size: 16px;
     display: flex;
@@ -62,7 +62,7 @@ img {
 }
 
 .intro {
-    background-color: #1F2937;
+    background-color: #388087;
     color: white;
     display: flex;
     justify-content: center;
@@ -86,22 +86,27 @@ img {
 }
 
 button {
-    background-color: #3882F6;
-    color: white;
+    background-color: #BADFE7;
+    color: #1F2937;
     border-radius: 8px;
     padding: 8px 18px;
-    border-style: hidden;
-    font-size: 16px;
+    font-size: 24px;
+    font-weight: 550;
+    border: #1F2937;
+    border-style:inset;
+    border-width:3px;
 }
 
 .content {
     text-align: center;
-    margin-bottom: 100px;
+    padding: 48px 0px;
+    background-color: #C2EDCE;
 }
 
 .content h1{
     font-size: 36px;
     color: #1F2937;
+    margin-top: 0;
 }
 
 .team {
@@ -131,16 +136,17 @@ button {
 
 .quote{
     width: 100%;
-    background-color: #E5E7EB;
+    background-color: #F6F6F2;
     display: flex;
     justify-content: center;
 }
 
-.container{
+.container{    padding: 48px 0px;
+
     display: flex;
     flex-direction: column;
     width: 800px;
-    background-color: #E5E7EB;
+    background-color: #F6F6F2;
     padding: 56px;
 }
 
@@ -160,36 +166,36 @@ button {
 }
 
 .action {
-    background-color: #3882F6;
-    color: white;
+    background-color: #BADFE7;
+    color: #1F2937;
     display: flex;
-    width: 780px;
+    width: 880px;
     justify-content: space-between;
     align-items: center;
     gap: 86px;
     padding: 48px 96px;
     border-radius: 12px;
-    margin: 100px;
+    margin: 72px;
 }
 
 .action button{
-    border: white;
-    border-style: solid;
     white-space: nowrap;
+    background-color: #F6F6F2;
 }
 
 .action h2{
-    font-size: 24px;
+    font-size: 36px;
     margin: 0;
     margin-bottom: 8px;
 }
 
 .action p{
-    font-size:18px;
+    font-size:24px;
     margin: 0;
 }
 
 .border {
     display: flex;
     justify-content: center;
+    background-color: #388087;
 }
