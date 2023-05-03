@@ -11,3 +11,5 @@ Objectives:
   -Create a landing page with styling per The Odin Project's guidelines.
   
   -Modify the styling to personalize the project.
+
+Images used sourced from pexels, pixabay, and unsplash.
